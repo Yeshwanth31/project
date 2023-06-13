@@ -6,17 +6,15 @@ body {
     box-sizing: border-box;
   }
   .Form {
-    padding: 15px;
-    background-color: rgb(173, 178, 32);
+    padding: 10px;
+    background-color: #333;
     text-align: center;
   }
   input[type=text], input[type=password], input[type=date] {
-    width: 100%;
-    padding: 15px;
-    margin: 10px 0 10px 0;
+    padding: 10px;
     display: inline-block;
     border: narrower;
-    background: #d6e4e6e3;
+    background: #111;
   }
   input[type=text]:focus, input[type=password]:focus, input[type=date]:focus {
     background-color: #c5d3d2;
@@ -24,26 +22,10 @@ body {
   }
   hr {
     border: 1.5px solid #3e4141;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
-  
-  .registerbtn {
-    background-color: #6e8181;
-    color: white;
-    padding: 15px 15px;
-    margin: 15px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 1;
-  }
-  
-  .registerbtn:hover {
-    opacity: 1;
-  }
-  
   a {
     color: dodgerblue;
   }
   
-  
+   
